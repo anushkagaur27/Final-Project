@@ -26,7 +26,7 @@ hand sign of this page. Download the zip file and unzip all the files onto your 
 "git clone --recursive https://github.com/dusty-nv/jetson-inference".
 3) Download the necessary python packages if not done so already by using the command "sudo apt-get install libpython3-dev python3-numpy"
 4) Create a build directory using the command "mkdir build"
-5) use the command "cd build" to navigate into the new build directory. In this directory, use the command "cmake ../".
+5) Use the command "cd build" to navigate into the new build directory. In this directory, use the command "cmake ../".
 6) Navigate into vsCode or your desired terminal. Make sure that your jetson nano is connected.
 7) Navigate into the directory "cd jetson-inference/python/training/classification/models".
 8) Download the resnet18.onnx file and the model_best.pth.tar file into this directory.
