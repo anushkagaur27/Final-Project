@@ -38,7 +38,7 @@ set), $DIRECTORY being the name of the directory that the image is to be classif
 14) To see the final classified image with a classification label and accuracy rate, download the image file from your terminal into imageWriter.
 
 ## Final Words
-This model is an AI machine learning model that utilizes the concept of convolutional neural networks. Overall, I am not entirely satisfied with my model, as it has some major fundamental issues with its training. If I had had more time to work on this project I would have mainly focused on creating a more concise dataset to train more accurately(run more epochs). 
+This model is an AI machine learning model that utilizes the concept of convolutional neural networks. Overall, I am not entirely satisfied with my model, as it has some major fundamental issues with its training, for example, incorrectly classifying an image with a very high accuracy rate. If I had had more time to work on this project I would have mainly focused on creating a more concise dataset to train more accurately (run more epochs) to get more accurate results. 
 
 # Classification Model Demonstration
 [Dog Allergy Classifier Demonstration Video](https://youtu.be/8ILD8d3ttj4)
