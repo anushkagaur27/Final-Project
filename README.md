@@ -28,7 +28,7 @@ hand sign of this page. Download the zip file and unzip all the files onto your 
 5) Use the command ```cd build``` to navigate into the new build directory. In this directory, use the command ```cmake ../```
 6) Navigate into vsCode or your desired terminal. Make sure that your jetson nano is connected.
 7) Navigate into the correct directory by using the command ```cd jetson-inference/python/training/classification/models```
-8) Download the resnet18.onnx file, the model_best.pth.tar file, the tensorboard file, and the labels.txt file(all the files within the models folder) into this directory.
+8) Download the resnet18.onnx file, the model_best.pth.tar file, the tensorboard file, and the labels.txt file into this directory.
 9) Navigate into the data direcotry by using the commands ```cd ../``` followed by ```cd data```
 10) Dowload the dataset into this directory. Unzip the files using the command ```tar xvzf dog_breeds.tar.gz```
 11) Use the command ```cd ../``` to navigate back to the classification directory. Now that you have all of the necessary files downloaded into your jetson-inference library, we can now process the images and classify them individually.
