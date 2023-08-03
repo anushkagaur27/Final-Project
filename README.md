@@ -22,3 +22,15 @@ hand sign of this page. Download the zip file and unzip all the files onto your 
 2) If not done already, clone the jetson-inference library to have all the necessary files for this model and your jetson nano. Do so by using the command
 "git clone --recursive https://github.com/dusty-nv/jetson-inference".
 3) Download the necessary python packages if not done so already by using the command "sudo apt-get install libpython3-dev python3-numpy"
+4) Create a build directory using the command "mkdir build"
+5) use the command "cd build" to navigate into the new build directory. In this directory, use the command "cmake ../".
+6) Navigate into vsCode or your desired terminal. Make sure that your jetson nano is connected.
+7) Navigate into the directory "cd jetson-inference/python/training/classification/models".
+8) Download the resnet18.onnx file and the model_best.pth.tar file into this directory.
+9) Navigate into the data direcotry by using the commands "cd ../" followed by "cd data".
+10) Dowload the dataset into this directory. Use the command "cd ../' to navigate back to the classification directory.
+Now that you have all of the necessary files downloaded into your jetson-inference library, we can now process the images and classify them individually.
+11) Set your network and dataset variables for classification using the commands "NET=models/dog_breeds" and "DATASET=data/dog_breeds".
+12) To run the model with an image to classify, use the command "imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 labels=$DATASET/labels.txt $DATASET/test/$DIRECTORY/$IMAGE.jpg $DESIRED.jpg", where $DATASET is not to changed(it is used for the dataset variable that we already
+set), $DIRECTORY being the name of the directory that the image to be classified is under, and $DESIRED being the name that you want your classified image to take on.
+14) To see the final classified image with a classification label and accuracy rate, download the image file from your terminal.
