@@ -21,7 +21,7 @@ the already existing model, train.py, in the jetson-inference library using resn
 
 # Reproducing This Project
 1) Make sure that you have downloaded all the files from this github repository. To do so, click on the green code button on the right
-hand sign of this page. Download the zip file and unzip all the files onto your deskptop. Also, download additional files using these links: https://drive.google.com/file/d/1jhkAOswI1X0AfbZCJxuCbSKJ6eJtfXYH/view?usp=sharing | https://drive.google.com/file/d/17UpEV8gsf4Gng7UhLGMH_p1tnaGfLcSm/view?usp=sharing 
+hand sign of this page. Download the zip file and unzip all the files onto your deskptop. Also, download additional files using these links: https://drive.google.com/file/d/1jhkAOswI1X0AfbZCJxuCbSKJ6eJtfXYH/view?usp=sharing https://drive.google.com/file/d/17UpEV8gsf4Gng7UhLGMH_p1tnaGfLcSm/view?usp=sharing 
 2) If not done already, clone the jetson-inference repository to have all the necessary files for this model in your jetson nano. Do so by using the command "git clone --recursive https://github.com/dusty-nv/jetson-inference".
 3) Download the necessary python packages if not done so already by using the command "sudo apt-get install libpython3-dev python3-numpy".
 4) Create a build directory using the command "mkdir build".
