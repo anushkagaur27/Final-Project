@@ -35,7 +35,7 @@ hand sign of this page. Download the zip file and unzip all the files onto your 
 12) Set your network and dataset variables for classification using the commands "NET=models/dog_breeds" and "DATASET=data/dog_breeds".
 13) To run the model with an image to classify, use the command "imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 labels=$DATASET/labels.txt $DATASET/test/$DIRECTORY/$IMAGE.jpg $DESIRED.jpg", where $DATASET is not to be changed(it is used for the dataset variable that we already
 set), $DIRECTORY being the name of the directory that the image to be classified is under, and $DESIRED being the name that you want your classified image to take on.
-14) To see the final classified image with a classification label and accuracy rate, download the image file from your terminal.
+14) To see the final classified image with a classification label and accuracy rate, download the image file from your terminal into imageWriter.
 
 # Final Words
 This model is an AI machine learning model that utilizes the concept of convolutional neural networks. Overall, I am not entirely satisfied with my model, as it has some major fundamental issues with its training. If I had had more time to work on this project I would have mainly focused on creating a more concise dataset to train more accurately(run more epochs). 
