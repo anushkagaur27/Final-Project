@@ -39,4 +39,4 @@ set), $DIRECTORY being the name of the directory that the image to be classified
 14) To see the final classified image with a classification label and accuracy rate, download the image file from your terminal.
 
 # Final Words
-This model is an AI machine learning model that utilizes the concept of convolutional neural networks. Overall, I am not entirely satisfied with my model, as it has some major fundamental issues with its training. If I had had more time to work on this project I would have mainly focused on creating a more concise dataset to train more (run more epochs). 
+This model is an AI machine learning model that utilizes the concept of convolutional neural networks. Overall, I am not entirely satisfied with my model, as it has some major fundamental issues with its training. If I had had more time to work on this project I would have mainly focused on creating a more concise dataset to train more accurately(run more epochs). 
