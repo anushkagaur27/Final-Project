@@ -1,12 +1,11 @@
 # Final Project - Dog Allergy Detection
 Hello, my name is Anushka and my final project was a dog allergy detector. This model 
-classifies whether a specific dog is hypoallergenic or not. This model uses a CNN (Convolutional Neural Network) 
-with the jetson-nano. It also uses resnet-18 and imagenet to train and classify the image dataset of dogs. My model is made using
-transfer learning, or the re-training of an already existing model.
+classifies whether a specific dog is hypoallergenic or not. The main concept that my model focuses on is CNN (Convolutional Neural Networks) 
+using the jetson-nano. It uses resnet-18 and imagenet to train and classify the image dataset of dogs. This model also mainly focuses on transfer learning, or the re-training of an already existing model.
 
 ## Real World Impact
-In the real world, people all over the world suffer from allergies, whether they are severe or not. In some cases, some people
-risk fatality due to allergies. Dog allergies are not uncommon, and dog hairs can easily cause irritation to people. Hypoallergenic dogs
+In the real world, people all over the world suffer from a vast variety of allergies, both severe and not. In some cases, some people
+risk fatality due to strong allergies. Dog allergies are not uncommon, and dog hairs can easily cause irritation to people. Hypoallergenic dogs
 are dogs that do not shed excessive hair (or if the dog is hairless, no hair at all). If my model was to be more accurate and easier to use,
 this model could help people avoid being around or adopting dogs that potentially could cause them allergic reactions.
 
@@ -14,8 +13,8 @@ this model could help people avoid being around or adopting dogs that potentiall
 
 ## The Algorithm
 As stated before, my model uses the jetson nano and the jetson-inference library in visual studio code. There are two classes
-that the images can be potentially sorted into: Hypoallergenic, or Non-Hypoallergenic. The dataset that I used from Kaggle was used to re-train 
-the already existing model, train.py, in the jetson-inference library using resnet-18. Afterwards, the model was converted into an ONNX formatting. To process the images for classification, I used imagenet. 
+that the images can be potentially sorted into: Hypoallergenic, or Non-Hypoallergenic. The dataset that I reorganized from Kaggle was used to re-train 
+the already existing model, train.py, in the jetson-inference library using resnet-18. I trained my model for a total of 30 epochs for about 70% accuracy. Afterwards, the model was converted into an ONNX formatting. To process the images for classification, I used imagenet. 
 
 ![alt text](https://github.com/anushkagaur27/Final-Project/assets/141268862/8f61d6a6-4366-4271-b7ad-ab4984e0c7ca)
 
@@ -38,7 +37,7 @@ set), $DIRECTORY being the name of the directory that the image is to be classif
 14) To see the final classified image with a classification label and accuracy rate, download the image file from your terminal into imageWriter.
 
 ## Final Words
-This model is an AI machine learning model that utilizes the concept of convolutional neural networks. Overall, I am not entirely satisfied with my model, as it has some major fundamental issues with its training, for example, incorrectly classifying an image with a very high accuracy rate. If I had had more time to work on this project I would have mainly focused on creating a more concise dataset to train more accurately (run more epochs) to get more accurate results. 
+This model is an AI machine learning model that utilizes the concept of convolutional neural networks and transfer learning. Overall, I am not entirely satisfied with my model, as it has some major fundamental issues with its training, for example, incorrectly classifying an image with a very high accuracy rate. If I had had more time to work on this project I would have mainly focused on creating a more concise dataset to train more accurately (run more epochs) to get more accurate results. 
 
 # Classification Model Demonstration
 [Dog Allergy Classifier Demonstration Video](https://youtu.be/8ILD8d3ttj4)
