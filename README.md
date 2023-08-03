@@ -14,7 +14,9 @@ this model could help people avoid being around or adopting dogs that potentiall
 As stated before, my model uses the jetson nano and the jetson-inference library in visual studio code. There are two classes
 that the images can be potentially sorted into: Hypoallergenic, or Non-Hypoallergenic. The dataset that I used from Kaggle was used to re-train 
 the already existing model, train.py, in the jetson-inference library using resnet-18. Afterwards, the model was converted into an ONNX formatting. To process the images for classification, I used imagenet. 
-(https://imgur.com/acr6Hxt)
+(https://github.com/anushkagaur27/Final-Project/assets/141268862/a792061d-0511-48bc-8185-8c8780f0cd1c)
+(https://github.com/anushkagaur27/Final-Project/assets/141268862/6992b182-e419-4adb-abe5-bacae7c482ab)
+
 (https://imgur.com/KdQc5VX)
 # Reproducing This Project
 1) Make sure that you have downloaded all the files from this github repository. To do so, click on the green code button on the right
