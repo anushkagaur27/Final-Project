@@ -1,20 +1,19 @@
 # Final-Project - Dog Allergy Detection
-Hi my name is Anushka Gaur and my final project was a dog allergy detector. This model 
-classifies whether a specific dog is hypoallergenic or not. This model uses a CNN(Convolutional Neural Network) 
-through the jetson-nano. It also uses resnet-18 and imagenet to train and classify the images. My mode is made through
+Hi, my name is Anushka and my final project was a dog allergy detector. This model 
+classifies whether a specific dog is hypoallergenic or not. This model uses a CNN (Convolutional Neural Network) 
+with the jetson-nano. It also uses resnet-18 and imagenet to train and classify the image dataset of dogs. My mode is made using
 transfer learning, or the re-training of an already existing model.
 
 # Real World Impact
 In the real world, people all over the world suffer from allergies, whether they are severe or not. In some cases, some people
 risk fatality due to allergies. Dog allergies are not uncommon, and dog hairs can easily cause irritation to people. Hypoallergenic dogs
-are dogs that do not shed excessive hair (or if hairless, no hair at all). If my model was to be more accurate and easier to use,
-this model could help people avoid being around or adopting dogs that potentially could cause allergic reactions.
+are dogs that do not shed excessive hair (or if the dog is hairless, no hair at all). If my model was to be more accurate and easier to use,
+this model could help people avoid being around or adopting dogs that potentially could cause them allergic reactions.
 
 # The Algorithm
-As stated before, my model was created using jetson nano and the jetson-inference library in Visual Studio Code. There are two classes
+As stated before, my model uses the jetson nano and the jetson-inference library in visual studio code. There are two classes
 that the images can be potentially sorted into: Hypoallergenic, or Non-Hypoallergenic. The dataset that I used from Kaggle was used to re-train 
-the already existing model train.py. Afterwards, the model was converted into an ONNX formatting. To process the images for classification,
-I used imagenet. 
+the already existing model, train.py, in the jetson-inference library using resnet-18. Afterwards, the model was converted into an ONNX formatting. To process the images for classification, I used imagenet. 
 
 # Reproducing This Project
 1) Make sure that you have downloaded all the files from this github repository. To do so, click on the green code button on the right
@@ -34,3 +33,7 @@ Now that you have all of the necessary files downloaded into your jetson-inferen
 12) To run the model with an image to classify, use the command "imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 labels=$DATASET/labels.txt $DATASET/test/$DIRECTORY/$IMAGE.jpg $DESIRED.jpg", where $DATASET is not to be changed(it is used for the dataset variable that we already
 set), $DIRECTORY being the name of the directory that the image to be classified is under, and $DESIRED being the name that you want your classified image to take on.
 14) To see the final classified image with a classification label and accuracy rate, download the image file from your terminal.
+
+# Final Words
+
+This model is an AI machine learning model that utilizes the concept of convolutional neural networks. Overall, I am not entirely satisfied with my model, as it has some major fundamental issues with its training. If I had had more time to work on this project I would have mainly focused on creating a more concise dataset to train more (run more epochs). 
