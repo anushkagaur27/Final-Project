@@ -10,14 +10,15 @@ risk fatality due to allergies. Dog allergies are not uncommon, and dog hairs ca
 are dogs that do not shed excessive hair (or if the dog is hairless, no hair at all). If my model was to be more accurate and easier to use,
 this model could help people avoid being around or adopting dogs that potentially could cause them allergic reactions.
 
+![alt text](https://github.com/anushkagaur27/Final-Project/assets/141268862/f293088a-8da5-4c0b-a015-ecbf1cb0da21)
+
 # The Algorithm
 As stated before, my model uses the jetson nano and the jetson-inference library in visual studio code. There are two classes
 that the images can be potentially sorted into: Hypoallergenic, or Non-Hypoallergenic. The dataset that I used from Kaggle was used to re-train 
 the already existing model, train.py, in the jetson-inference library using resnet-18. Afterwards, the model was converted into an ONNX formatting. To process the images for classification, I used imagenet. 
-(https://github.com/anushkagaur27/Final-Project/assets/141268862/a792061d-0511-48bc-8185-8c8780f0cd1c)
-(https://github.com/anushkagaur27/Final-Project/assets/141268862/6992b182-e419-4adb-abe5-bacae7c482ab)
 
-(https://imgur.com/KdQc5VX)
+![alt text](https://github.com/anushkagaur27/Final-Project/assets/141268862/8f61d6a6-4366-4271-b7ad-ab4984e0c7ca)
+
 # Reproducing This Project
 1) Make sure that you have downloaded all the files from this github repository. To do so, click on the green code button on the right
 hand sign of this page. Download the zip file and unzip all the files onto your deskptop.
@@ -38,5 +39,4 @@ set), $DIRECTORY being the name of the directory that the image to be classified
 14) To see the final classified image with a classification label and accuracy rate, download the image file from your terminal.
 
 # Final Words
-
 This model is an AI machine learning model that utilizes the concept of convolutional neural networks. Overall, I am not entirely satisfied with my model, as it has some major fundamental issues with its training. If I had had more time to work on this project I would have mainly focused on creating a more concise dataset to train more (run more epochs). 
