@@ -31,10 +31,11 @@ hand sign of this page. Download the zip file and unzip all the files onto your 
 7) Navigate into the directory "cd jetson-inference/python/training/classification/models".
 8) Download the resnet18.onnx file and the model_best.pth.tar file into this directory.
 9) Navigate into the data direcotry by using the commands "cd ../" followed by "cd data".
-10) Dowload the dataset into this directory. Use the command "cd ../' to navigate back to the classification directory.
+10) Dowload the dataset into this directory. Unzip the files using the command "tar xvzf dog_breeds.tar.gz".
+11) Use the command "cd ../' to navigate back to the classification directory.
 Now that you have all of the necessary files downloaded into your jetson-inference library, we can now process the images and classify them individually.
-11) Set your network and dataset variables for classification using the commands "NET=models/dog_breeds" and "DATASET=data/dog_breeds".
-12) To run the model with an image to classify, use the command "imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 labels=$DATASET/labels.txt $DATASET/test/$DIRECTORY/$IMAGE.jpg $DESIRED.jpg", where $DATASET is not to be changed(it is used for the dataset variable that we already
+12) Set your network and dataset variables for classification using the commands "NET=models/dog_breeds" and "DATASET=data/dog_breeds".
+13) To run the model with an image to classify, use the command "imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 labels=$DATASET/labels.txt $DATASET/test/$DIRECTORY/$IMAGE.jpg $DESIRED.jpg", where $DATASET is not to be changed(it is used for the dataset variable that we already
 set), $DIRECTORY being the name of the directory that the image to be classified is under, and $DESIRED being the name that you want your classified image to take on.
 14) To see the final classified image with a classification label and accuracy rate, download the image file from your terminal.
 
