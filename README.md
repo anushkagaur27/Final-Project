@@ -1,4 +1,4 @@
-# Final-Project - Dog Allergy Detection
+# Final Project - Dog Allergy Detection
 Hello, my name is Anushka and my final project was a dog allergy detector. This model 
 classifies whether a specific dog is hypoallergenic or not. This model uses a CNN (Convolutional Neural Network) 
 with the jetson-nano. It also uses resnet-18 and imagenet to train and classify the image dataset of dogs. My mode is made using
